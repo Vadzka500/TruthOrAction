@@ -20,7 +20,7 @@ fun setLanguageName(textView: TextView, localeToName: Locale) {
 fun setLanguageCode(textView: CircleImageView, localeToCode: Locale) {
     val codeId = when (localeToCode) {
         Locale.EN -> R.drawable.en_img
-        Locale.RU -> R.drawable.rus_img
+        Locale.RU -> R.drawable.img_rus
     }
 
     textView.setImageResource(codeId)

@@ -42,7 +42,7 @@
             android:layout_height="170dp"
             android:layout_marginStart="14dp"
             android:contentDescription="@string/pack_icon"
-            tools:src="@drawable/light_pack" />
+            tools:src="@drawable/ing_light_pack" />
 
         <TextView
             android:id="@+id/nameText"

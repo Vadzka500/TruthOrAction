@@ -73,7 +73,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 isVisible="@{!viewModel.isActivitySelected()}"
-                app:srcCompat="@drawable/img_quest_2"
+                app:srcCompat="@drawable/img_quest"
                 android:contentDescription="@string/question_image" />
 
             <TextView
